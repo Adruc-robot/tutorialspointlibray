@@ -1,24 +1,5 @@
-# README
+Following a tutorial from https://www.tutorialspoint.com/ruby-on-rails/rails-examples.htm
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+bing bong boom
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It looks like this is based on an older version of rails, so this should be fun

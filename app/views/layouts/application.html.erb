@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <title>Library Info System</title>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body id="library">
+    <div id="container">
+      <div id="header">
+        <h1>Library Info System</h1>
+        <h3>Library powered by Ruby on Rails</h3>
+      </div>
+      <div id="content">
+        <%= yield %>
+      </div>
+      <div id="sidebar"></div>
+    </div>
   </body>
 </html>
